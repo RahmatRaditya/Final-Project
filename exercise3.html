@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise 3</title>
+  <link rel="stylesheet" href="./src/css/exercise3.css">
+</head>
+
+<body>
+  <p>Klik header untuk mengurutkan dari yang terkecil</p>
+  <input type="text" id="input1" class="input" onkeyup="filterName()" placeholder="Find for Names...">
+  <input type="text" id="input2" class="input" onkeyup="filterRotation()" placeholder="Find for Rotation...">
+  <input type="text" id="input3" class="input" onkeyup="filterOrbital()" placeholder="Find for Orbital...">
+  <input type="text" id="input4" class="input" onkeyup="filterDiameter()" placeholder="Find for Diameter...">
+  <input type="text" id="input5" class="input" onkeyup="filterClimate()" placeholder="Find for Climate...">
+  <input type="text" id="input6" class="input" onkeyup="filterGravity()" placeholder="Find for Gravity...">
+  <input type="text" id="input7" class="input" onkeyup="filterTerrain()" placeholder="Find for Terrain...">
+  <table id="table">
+    <thead>
+      <tr>
+        <th onclick="sortName()">Name</th>
+        <th onclick="sortRotation()">Rotation Period</th>
+        <th onclick="sortOrbital()">Orbital Period</th>
+        <th onclick="sortDiameter()">Diameter</th>
+        <th onclick="sortClimate()">Climate</th>
+        <th onclick="sortGravity()">Gravity</th>
+        <th onclick="sortTerrain()">Terrain</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <script src="./src/js/exercise3.js"></script>
+</body>
+
+</html>
